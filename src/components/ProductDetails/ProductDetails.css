@@ -1,0 +1,21 @@
+.card{
+    border: none !important;
+}
+
+.card-body span{
+    text-align: left;
+}
+
+.card-btn{
+    margin-left: 120px;
+    border: none;
+    background-color: white;
+    color: #009E7F;
+    padding: 10px 15px;
+}
+
+.card-btn:hover{
+    color: white;
+    background-color: #009E7F;
+    border-radius: 10px;
+}
