@@ -3,6 +3,11 @@ header{
     background-image: url(../../images/grocery-f1565ac25de02b9295dccc2da13004ab.png);
     height: 100vh;
     background-size: cover;
+    /* padding-top: 150px; */
+}
+
+
+.header-text{
     padding-top: 150px;
 }
 

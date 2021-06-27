@@ -1,15 +1,11 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Products from './components/Products/Products';
-import Vouchers from './components/Vouchers/Vouchers';
+import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div>
-      <Header></Header>
-      <Vouchers></Vouchers>
-      <Products></Products>
-    </div>
+    <>
+      <Home></Home>
+    </>
   );
 }
 

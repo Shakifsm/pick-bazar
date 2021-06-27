@@ -1,0 +1,59 @@
+.menu{
+    background-color: white !important;
+}
+
+.menu ul{
+    margin-top: 10px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline;
+}
+
+.menu li a{
+    color: #0D1136;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 20px;
+    
+    
+}
+
+.menu li a:hover{
+    color: #019376;
+}
+
+.select{
+    font-weight: 600;
+    padding: 8px 12px;
+    color: #019376;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.nav-btn-1{
+    color: #019376;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.nav-btn-2{
+    color: white;
+    background-color: #019376;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-left: 10px;
+
+}
+
+.nav-btn-2:hover{
+    background-color: #04866c;
+}

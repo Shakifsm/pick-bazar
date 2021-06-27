@@ -2,10 +2,12 @@ import React from "react";
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
     <header>
+      <Navbar></Navbar>
       <div className="container">
         <div className="row">
           <div className="col-md-12">
