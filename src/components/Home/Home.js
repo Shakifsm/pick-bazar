@@ -4,7 +4,6 @@ import Demos from '../Demos/Demos';
 import Header from '../Header/Header';
 import Products from '../Products/Products';
 import Vouchers from '../Vouchers/Vouchers';
-import Navbar from "../Navbar/Navbar"
 
 const Home = () => {
     return (
@@ -14,7 +13,6 @@ const Home = () => {
             <Products></Products>
             <Cart></Cart>
             <Demos></Demos>
-            <Navbar></Navbar>
         </>
     );
 };

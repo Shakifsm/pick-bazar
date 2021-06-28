@@ -27,10 +27,11 @@ const Navbar = () => {
       </select>
   </div>
 
-    <form style={{marginLeft:"10px"}}>
+    <form className="menu-search">
         <input style={{width:"250px", backgroundColor:"#F7F7F7", border:"none"}} type="text" placeholder="Search your products from here" />
     </form>
 
+    <div className="menu-right">
     <ul>
         <li>
             <a href="/#">Offer</a>
@@ -42,6 +43,7 @@ const Navbar = () => {
 
     <button className="nav-btn-1">English</button>
     <button className="nav-btn-2">Join</button>
+    </div>
     
     {/* <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>

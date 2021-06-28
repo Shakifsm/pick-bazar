@@ -2,6 +2,16 @@
     background-color: white !important;
 }
 
+.menu-search{
+    margin-left: 50px;
+}
+
+.menu-right{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
 .menu ul{
     margin-top: 10px;
 }
@@ -16,7 +26,6 @@
     text-decoration: none;
     font-weight: 600;
     margin-right: 20px;
-    
     
 }
 
@@ -33,6 +42,7 @@
     border-radius: 5px;
     cursor: pointer;
     outline: none;
+    margin-left: 50px;
 
 }
 
@@ -56,4 +66,21 @@
 
 .nav-btn-2:hover{
     background-color: #04866c;
+}
+
+
+@media ( min-width:786px){
+    .menu-right{
+        margin-left: 0px;
+       }
+    
+}
+
+@media ( min-width:1200px){
+    .menu-right{
+        margin-left: 650px;
+       }
+       .menu-search{
+        display: none;
+    }
 }

@@ -1,0 +1,22 @@
+.sidebar {
+  margin-top: 70px;
+  overflow: visible;
+
+}
+
+
+.sidebar li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: #0d1136c4;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sidebar li a:hover {
+  color: #04866c;
+}
