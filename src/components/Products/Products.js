@@ -11,8 +11,8 @@ const Products = () => {
   }, []);
 
   return (
-    <div className="container-fluid">
-      <div className="row" >
+    <div className="container-fluid" >
+      <div className="row">
         <div className="col-md-2">
           <Sidebar></Sidebar>
         </div>
